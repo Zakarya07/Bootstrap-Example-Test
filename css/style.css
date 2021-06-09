@@ -1,0 +1,99 @@
+.btn-primary, .btn-secondary { display: inline-block; border-radius: 5px; margin: 3px; padding: 8px 20px; }
+
+.btn-primary:hover, .btn-secondary:hover { transform: scale(0.98); }
+
+.btn-primary { background-color: #1d214d; color: #fff; }
+
+.btn-secondary { background-color: #fe6102; color: #fff; }
+
+.m-1 { margin: 1em; }
+
+.my-1 { margin: 1em 0; }
+
+.p-1 { padding: 1em; }
+
+.py-1 { padding: 1em 0; }
+
+.m-2 { margin: 2em; }
+
+.my-2 { margin: 2em 0; }
+
+.p-2 { padding: 2em; }
+
+.py-2 { padding: 2em 0; }
+
+.m-3 { margin: 3em; }
+
+.my-3 { margin: 3em 0; }
+
+.p-3 { padding: 3em; }
+
+.py-3 { padding: 3em 0; }
+
+.m-4 { margin: 4em; }
+
+.my-4 { margin: 4em 0; }
+
+.p-4 { padding: 4em; }
+
+.py-4 { padding: 4em 0; }
+
+.m-5 { margin: 5em; }
+
+.my-5 { margin: 5em 0; }
+
+.p-5 { padding: 5em; }
+
+.py-5 { padding: 5em 0; }
+
+@font-face { font-family: "Open-Sans-Serif"; src: url("../Fonts/open-sans/OpenSans-Light.ttf"); font-weight: 300; }
+
+@font-face { font-family: "Open-Sans-Serif"; src: url("../Fonts/open-sans/OpenSans-LightItalic.ttf"); font-weight: 300; font-style: italic; }
+
+@font-face { font-family: "Open-Sans-Serif"; src: url("../Fonts/open-sans/OpenSans-Italic.ttf"); font-weight: 300; font-style: italic; }
+
+@font-face { font-family: "Open-Sans-Serif"; src: url("../Fonts/open-sans/OpenSans-Regular.ttf"); font-weight: 400; }
+
+@font-face { font-family: "Open-Sans-Serif"; src: url("../Fonts/open-sans/OpenSans-Semibold.ttf"); font-weight: 600; }
+
+@font-face { font-family: "Open-Sans-Serif"; src: url("../Fonts/open-sans/OpenSans-SemiboldItalic.ttf"); font-weight: 600; font-style: italic; }
+
+@font-face { font-family: "Open-Sans-Serif"; src: url("../Fonts/open-sans/OpenSans-Bold.ttf"); font-weight: 700; }
+
+@font-face { font-family: "Open-Sans-Serif"; src: url("../Fonts/open-sans/OpenSans-BoldItalic.ttf"); font-weight: 700; font-style: italic; }
+
+@font-face { font-family: "Open-Sans-Serif"; src: url("../Fonts/open-sans/OpenSans-ExtraBold.ttf"); font-weight: 800; }
+
+@font-face { font-family: "Open-Sans-Serif"; src: url("../Fonts/open-sans/OpenSans-ExtraBoldItalic.ttf"); font-weight: 800; font-style: italic; }
+
+* { box-sizing: border-box; padding: 0; margin: 0; font-family: "Open-Sans-Serif"; }
+
+body { min-height: 100vh; }
+
+header .information h1 { font-weight: 900 !important; }
+
+header .information i { color: #e65701; }
+
+header .information button { background-color: #fe6102; font-size: .85em; font-weight: 600; }
+
+header nav { background-color: #0f1128; }
+
+header nav div div > ul li a.active { color: #b34401 !important; }
+
+header nav div div > form.d-flex input { border: 1px solid rgba(211, 211, 211, 0.25); }
+
+header nav div div > form.d-flex input::placeholder { color: lightgrey; }
+
+section.header_bg { height: 65vh; background: linear-gradient(125deg, rgba(211, 211, 211, 0.1), rgba(255, 115, 0, 0.6)), url("../Images/eliott-reyna-kcT-7cirBEw-unsplash.jpg"); background-size: cover; color: white; }
+
+section.header_bg h1 { font-weight: 700; }
+
+section.header_bg p { font-weight: 400; }
+
+section.header_bg button { background-color: #fe6102; }
+
+section.services div { height: 35vh; }
+
+section.services div:nth-of-type(odd) { background-color: #fe6102; }
+
+section.services div:nth-of-type(even) { background-color: #0f1128; }

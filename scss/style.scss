@@ -1,0 +1,93 @@
+@import '_config';
+@import '_buttons';
+@import 'utilities';
+@import 'font';
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Open-Sans-Serif";
+    
+}
+
+
+body {
+    min-height: 100vh;
+}
+
+header{
+
+    .information{
+
+        h1{
+            font-weight: 900 !important;
+        }
+
+        i{
+            color: darken($secondary-color,5%);
+        }
+
+        button{
+            background-color:$secondary-color;
+            font-size: .85em;
+            font-weight: 600;
+        }
+    }
+    nav{
+        background-color: $primary-color;
+
+        & div div > ul li a.active{
+            color: darken($secondary-color,15%) !important;
+        }
+
+        & div div > form.d-flex input {
+            border: 1px solid rgba(211, 211, 211, 0.25);
+            
+        }
+
+        & div div > form.d-flex input::placeholder {
+            color: lightgrey;
+        }
+    }
+
+}
+
+
+section.header_bg{
+height: 65vh;
+background:linear-gradient(125deg,rgba(211, 211, 211, 0.1),rgba(255, 115, 0, .6)), url("../Images/eliott-reyna-kcT-7cirBEw-unsplash.jpg");
+background-size: cover;
+color: white;
+
+h1{
+font-weight: 700;
+}
+
+p{
+    font-weight: 400;
+}
+
+
+button{
+    background-color: $secondary-color;
+}
+
+}
+
+section.services{
+
+    div{
+        height: 35vh;
+
+    
+
+        &:nth-of-type(odd){
+            background-color: $secondary-color;
+        }
+        &:nth-of-type(even){
+            background-color: $primary-color;
+        }
+    }
+
+}

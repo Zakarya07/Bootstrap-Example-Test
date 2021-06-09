@@ -1,0 +1,22 @@
+
+// Set all values in an list 
+
+$spaceamounts : (1,2,3,4,5);
+
+@each $space in $spaceamounts {
+    // margins
+    .m-#{$space}{
+        margin: #{$space}em;
+    } 
+    .my-#{$space}{
+        margin: #{$space}em 0;
+    } 
+    
+    // paddings
+   .p-#{$space}{
+       padding: #{$space}em;
+   } 
+   .py-#{$space}{
+       padding: #{$space}em 0;
+   } 
+}
