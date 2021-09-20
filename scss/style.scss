@@ -42,7 +42,12 @@ header{
         }
 
         & div div > form.d-flex input {
-            border: 1px solid rgba(211, 211, 211, 0.25);
+            border: 1px solid rgba(211, 211, 211, 0.5);
+            color: lighten($secondary-color, 5%);
+
+            &:focus-within{
+                outline: none;
+            }
             
         }
 
