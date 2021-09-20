@@ -80,7 +80,9 @@ header nav { background-color: #0f1128; }
 
 header nav div div > ul li a.active { color: #b34401 !important; }
 
-header nav div div > form.d-flex input { border: 1px solid rgba(211, 211, 211, 0.25); }
+header nav div div > form.d-flex input { border: 1px solid rgba(211, 211, 211, 0.5); color: #fe711b; }
+
+header nav div div > form.d-flex input:focus-within { outline: none; }
 
 header nav div div > form.d-flex input::placeholder { color: lightgrey; }
 
